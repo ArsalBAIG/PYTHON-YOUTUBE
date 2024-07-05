@@ -73,3 +73,14 @@ exam_starting = (27, 6, 2024)
 print(f"The exam will start from {exam_starting[0]} / {exam_starting[1]} / {exam_starting[2]}")
 
 12# How to Read a number n and compute n+nn+nnn in python
+
+n = input("Enter any single no? ")
+# Here, we convert 'n' into string due to concatination.
+temprary = str(n)
+x1 = temprary + temprary
+x2 = temprary + temprary + temprary
+Addition = int(n) + int(x1) + int(x2)
+print("Sum will be: ", Addition)
+
+13# How to print a calendar for the given month and year in Python
+
