@@ -46,3 +46,26 @@ lastN = input("Enter your last name? ").capitalize()
 print(f"Hello {firstN} {lastN}")
 
 8# How to create a list and tuple with comma separated numbers in Python
+
+numbers = int(input("Enter some +ive integers? "))
+list = numbers.split(",")
+#Here, tuple is used to convert list into tuple.
+tuple = tuple(list)
+
+print("List is: ", list)
+print("Tuple is: ", tuple)
+
+9# How to extract extension from filename in python
+
+import os
+file_name = "mymodule.txt"
+#Here, [1] is used to get .txt and file_name is used to get mymodule
+file_extention = os.path.splitext(file_name)[1]
+
+print(file_extention)
+
+10# Display the first and last colors from a given list in Python
+(Do it yourself).
+
+11# Display a sample examination schedule in Python
+
