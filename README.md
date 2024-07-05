@@ -33,3 +33,16 @@ print(sys.version_info)
 
 6# How to find the Area of Circle in python.
 
+from math import pi
+def circleArea(r):
+    return pi * (r ** 2)
+radius = float(input("Enter the radius of circle? "))
+print(f"The radius of circle will be: {circleArea(radius):.2f}")
+
+7# How to print first and last name in python?
+
+firstN = input("Enter your first name? ").capitalize()
+lastN = input("Enter your last name? ").capitalize()
+print(f"Hello {firstN} {lastN}")
+
+8# How to create a list and tuple with comma separated numbers in Python
