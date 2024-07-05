@@ -69,3 +69,7 @@ print(file_extention)
 
 11# Display a sample examination schedule in Python
 
+exam_starting = (27, 6, 2024)
+print(f"The exam will start from {exam_starting[0]} / {exam_starting[1]} / {exam_starting[2]}")
+
+12# How to Read a number n and compute n+nn+nnn in python
