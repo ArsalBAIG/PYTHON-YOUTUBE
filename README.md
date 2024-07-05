@@ -84,3 +84,15 @@ print("Sum will be: ", Addition)
 
 13# How to print a calendar for the given month and year in Python
 
+import calendar
+year = int(input("Enter the year?" ))
+month = int(input("Enter the month? "))
+
+if 1 <= month <= 12:
+    calculate = calendar.month(year, month)
+    print(f"The calender of year {year} and month {month}")
+    print(calculate)
+else:
+    print("Please enter b/w 1 to 12 months. ")
+
+14# How to write string without having escape in Python
