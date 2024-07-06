@@ -144,3 +144,16 @@ reverse = int(str(user_input)[::-1])
 print(reverse)
 
 20# How to find the Biggest and Smallest of 3 numbers using lists in Python
+
+def find_large_small(number):
+    largest = max(number)
+    smallest = min(number)
+    return largest, smallest
+
+num_list = [12, 45, 2, 41, 31, 10, 8, 6, 4]
+# Here, we unpack largest_num, smallest_num into two seperate variables.
+largest_num, smallest_num = find_large_small(num_list)
+print(f"Largest no is: {largest_num}")
+print(f"Smallest no is: {smallest_num}")
+
+21# How to find area of a triangle in Python
