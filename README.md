@@ -112,3 +112,21 @@ print(f"Vol will be: {volume:.2f} cm^3")
 
 16# How to find the difference between two numbers in Python
 
+def subtract(num):
+    if num < 15:
+        return num - 5
+    else:
+        return (num * 3) / 4
+    
+print(subtract(12))
+17# Calculate sum of three numbers if the values are equal then return thrice of their sum in Python
+
+def thrice(x, y, z):
+    Total = x + y + z
+
+    if x == y == z:
+        Total *= 3
+    return Total
+
+print(thrice(2, 2, 2))
+
