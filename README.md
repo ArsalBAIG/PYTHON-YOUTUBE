@@ -104,3 +104,11 @@ diff = currentDate - birthDate
 print(f"No of days you live are {diff.days}")
 
 15# How to find Volume and Surface Area of Sphere in Python
+
+PI = 3.13
+r = float(input("Enter the value of radius? "))
+volume = 4 * PI * r * r
+print(f"Vol will be: {volume:.2f} cm^3")
+
+16# How to find the difference between two numbers in Python
+
