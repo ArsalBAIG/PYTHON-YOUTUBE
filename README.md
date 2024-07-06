@@ -130,3 +130,11 @@ def thrice(x, y, z):
 
 print(thrice(2, 2, 2))
 
+18# How to Get a new string from a given string in Python
+
+# We use slicing for this purpose.
+string = "Hello my name is Arsal!"
+newString = string[3: 8]
+print(newString)
+
+19# How to reverse a number using slice operations in python
