@@ -95,4 +95,12 @@ if 1 <= month <= 12:
 else:
     print("Please enter b/w 1 to 12 months. ")
 
-14# How to write string without having escape in Python
+14# How to Calculate number of days between two dates in Python
+
+from datetime import datetime
+birthDate = datetime.strptime("15/12/2004", "%d/%m/%Y")
+currentDate = datetime.strptime("7/6/2024", "%d/%m/%Y")
+diff = currentDate - birthDate
+print(f"No of days you live are {diff.days}")
+
+15# How to find Volume and Surface Area of Sphere in Python
