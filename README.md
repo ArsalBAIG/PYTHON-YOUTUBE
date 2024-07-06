@@ -138,3 +138,9 @@ newString = string[3: 8]
 print(newString)
 
 19# How to reverse a number using slice operations in python
+
+user_input = int(input("Enter any +ive integer? "))
+reverse = int(str(user_input)[::-1])
+print(reverse)
+
+20# How to find the Biggest and Smallest of 3 numbers using lists in Python
