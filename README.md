@@ -157,3 +157,9 @@ print(f"Largest no is: {largest_num}")
 print(f"Smallest no is: {smallest_num}")
 
 21# How to find area of a triangle in Python
+
+def area_of_triangle(base, height):
+    return (base * height) / 2
+
+print(f"Area of Tri is: {area_of_triangle(5, 9):.2f}")
+
