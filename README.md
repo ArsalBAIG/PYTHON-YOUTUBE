@@ -174,3 +174,9 @@ def integer_string(str, n):
 print(integer_string("Arsal, 3"))
 
 23# How to count the number of items in a list in Python
+
+list_conut = [1, 3, 4, 5, 2, 9]
+result = len(list_conut)
+print(result)
+
+24# How to find n copies of the first 2 characters of a given string in Python
