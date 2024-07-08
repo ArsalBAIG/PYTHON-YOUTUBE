@@ -260,4 +260,14 @@ if l1 == l3:
 else:
     print("List 1 is'nt same as list 3. ")
 
-30# 
+30# How to Find the Greatest Common Divisor GCD in Python
+
+import math
+a = 45
+b = 55
+
+result = math.gcd(a, b)
+# Here, GDC means greatest common division which is actually the table on which the values are divisible.
+print(f"The GDC of {a} and {b} is: {result}")
+
+31# How to Find least common multiple LCM in Python
