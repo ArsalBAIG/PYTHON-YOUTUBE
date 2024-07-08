@@ -288,3 +288,21 @@ num3 = 8
 print(threeNum(num1, num2, num3))
 
 33# How to Add two objects if both objects are an integer type in Python
+
+class Integer:
+    def __init__(self, value):
+        self.value = value
+    
+    def __add__(self, other):
+        #Here, we check that is 'other' a instance of Integer class or not if not then we raise an Error.
+        if not isinstance(other, Integer):
+            raise TypeError("Both values must be integer type! ")
+        return Integer(self.value + other.value)
+
+num1 = Integer(23)
+num2 = Integer(33)
+result = num1 + num2
+#Here, we print sum of two objects using result.value
+print("Sum of two objects will be: ", result.value)
+
+34# How to Display name, age, address in three different lines in Python
