@@ -180,3 +180,30 @@ result = len(list_conut)
 print(result)
 
 24# How to find n copies of the first 2 characters of a given string in Python
+
+def first_n(text, n):
+    return text[:2] * n
+
+print(first_n("Arsal", 3))
+
+25# How to Check if item is in List in Python
+def element_exists(element, list):
+    for item in list:
+        if item == element:
+            return True
+        
+
+my_list = [1, 2, 3, 5, 8]
+element = 8
+
+if element_exists(element, my_list):
+    print("Element exsists. ")
+else:
+    print("Element doesn't exsists. ")
+##Second Method :
+
+fruits = ["apple", "banana", "cherry"]
+if "apple" in fruits:
+    print("Yes, 'apple' is in the fruits list")
+
+26# How to Create a histogram from a given list of integers in Python
