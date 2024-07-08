@@ -207,3 +207,16 @@ if "apple" in fruits:
     print("Yes, 'apple' is in the fruits list")
 
 26# How to Create a histogram from a given list of integers in Python
+
+def histogram(items):
+    for n in items:
+        output = " "
+        times = n
+        while(times > 0):
+            output += "*"
+        # Here, time is decrementing.
+            times = times - 1
+        print(output)
+
+histogram([1, 2, 3, 4, 5])
+
