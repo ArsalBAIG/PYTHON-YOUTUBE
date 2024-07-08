@@ -215,8 +215,49 @@ def histogram(items):
         while(times > 0):
             output += "*"
         # Here, time is decrementing.
-            times = times - 1
+            times -= 1
         print(output)
 
 histogram([1, 2, 3, 4, 5])
 
+27# How to Turn a list into a string in Python
+
+def convert_list(list):
+    output = ""
+    for item in list:
+        output += str(item)
+    return output
+
+print(convert_list([1, 2, 3 , 4]))
+
+28# How to print even numbers in the given range in Python
+
+start = int(input("Enter the lower range? "))
+end = int(input("Enter the upper range? "))
+
+if start % 2 != 0:
+    start += 1
+
+for i in range(start, end + 1, 2):
+    print(i)
+
+29# How to compare lists in Python
+
+l1 = [10, 20, 30, 40, 50]
+l2 = [20, 30, 50, 40, 70]
+l3 = [50, 10, 30, 20, 40]
+
+l1.sort()
+l2.sort()
+l3.sort()
+
+if l1 == l2:
+    print("List 1 is as same as list 2. ")
+else:
+    print("List 1 is'nt same as list 2. ")
+if l1 == l3:
+    print("List 1 is as same as list 3. ")
+else:
+    print("List 1 is'nt same as list 3. ")
+
+30# 
