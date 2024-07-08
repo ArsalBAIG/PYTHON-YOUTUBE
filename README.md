@@ -271,3 +271,20 @@ result = math.gcd(a, b)
 print(f"The GDC of {a} and {b} is: {result}")
 
 31# How to Find least common multiple LCM in Python
+
+from math import lcm
+result = lcm(2, 4, 7)
+print("The LCM is: ", result)
+
+32# How to sum of three given integers in python
+
+def threeNum(x, y, z):
+    return x + y + z
+
+num1 = 9
+num2 = 4
+num3 = 8
+
+print(threeNum(num1, num2, num3))
+
+33# How to Add two objects if both objects are an integer type in Python
