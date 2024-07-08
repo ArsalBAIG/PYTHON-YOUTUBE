@@ -165,3 +165,12 @@ print(f"Area of Tri is: {area_of_triangle(5, 9):.2f}")
 
 22# How to Get a string which is n copies of a given string in Python
 
+def integer_string(str, n):
+    output = ""
+    for i in range(n):
+        output = output + str
+    return output
+
+print(integer_string("Arsal, 3"))
+
+23# How to count the number of items in a list in Python
