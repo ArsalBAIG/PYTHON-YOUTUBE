@@ -163,3 +163,5 @@ def area_of_triangle(base, height):
 
 print(f"Area of Tri is: {area_of_triangle(5, 9):.2f}")
 
+22# How to Get a string which is n copies of a given string in Python
+
