@@ -371,3 +371,8 @@ print(platform.system())
 print(platform.release())
 
 39# How to get path and name of a file that is currently executing in Python
+
+import os
+print("Current File is: ", os.path.realpath(__file__))
+
+40# 
