@@ -349,3 +349,25 @@ future_amount = amount * ((1 + (interest_rate / 100)) ** time)
 print(round(future_amount))
 
 37# How to calculate the distance between two points in Python
+
+x1, y1 = 5, 8
+x2, y2 = 9, 1
+
+distance = ((x1 - x2)**2 + (y1 - y2)**2)**0.5
+print(f"Distance b/w {x1} and {x2} and {y1} and {y2} is= {distance:.2f}")
+
+37# Caculate the size of python? 
+
+import struct
+print(struct.calcsize("P") * 8)
+
+38# How to Check the OS name, platform and release information in Python
+
+import platform
+import os
+
+print(os.name)
+print(platform.system())
+print(platform.release())
+
+39# How to get path and name of a file that is currently executing in Python
