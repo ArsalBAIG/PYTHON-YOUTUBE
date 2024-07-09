@@ -332,3 +332,10 @@ def details():
 details()
 
 35# How to solve {x + y } * {x + y} in Python
+
+x = 3
+y = 8
+result = x * x + y * y + 2 * x * y
+print(f"(x + y)^ 2 = {result}")
+
+36#  How to compute the future value of rate of interest and a number of years in Python
