@@ -297,6 +297,7 @@ class Integer:
         #Here, we check that is 'other' a instance of Integer class or not if not then we raise an Error.
         if not isinstance(other, Integer):
             raise TypeError("Both values must be integer type! ")
+            #Here, value is attribute.
         return Integer(self.value + other.value)
 
 num1 = Integer(23)
@@ -304,5 +305,21 @@ num2 = Integer(33)
 result = num1 + num2
 #Here, we print sum of two objects using result.value
 print("Sum of two objects will be: ", result.value)
+                                                ::Another example::
+
+class Number:
+    def __init__(self, first):
+        self.first = first
+    
+    def __sub__(self, second):
+        if not isinstance(second, Number) or second < 0:
+            raise TypeError("Both values must be +ive. ")
+            #Here, first is an attribute of second.
+        return Number(self.first - second.first)
+    
+num1 = Number(23)
+num2 = Number(33)
+result = num2 - num1
+print(f"The Subtarction will be: {result.first}")
 
 34# How to Display name, age, address in three different lines in Python
