@@ -339,3 +339,13 @@ result = x * x + y * y + 2 * x * y
 print(f"(x + y)^ 2 = {result}")
 
 36#  How to compute the future value of rate of interest and a number of years in Python
+
+amount = 7000
+interest_rate = 3.5
+time = 9
+# Here, the formula is: P(1 + r/ 100)^ t.
+
+future_amount = amount * ((1 + (interest_rate / 100)) ** time)
+print(round(future_amount))
+
+37# How to calculate the distance between two points in Python
