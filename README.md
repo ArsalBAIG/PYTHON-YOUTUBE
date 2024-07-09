@@ -323,3 +323,12 @@ result = num2 - num1
 print(f"The Subtarction will be: {result.first}")
 
 34# How to Display name, age, address in three different lines in Python
+
+def details():
+    name, age = "Arsal", 19
+    address = "Civil lines, Jhang Sadar."
+    print("Name is:{}\n Age: {}\n Address: {}".format(name, age, address))
+
+details()
+
+35# How to solve {x + y } * {x + y} in Python
