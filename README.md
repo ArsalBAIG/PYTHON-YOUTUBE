@@ -10,6 +10,7 @@ print("Average will be: ", avg)
 
 2# How to Sum of the First N Positive Integers in Python
 
+#Here the formula's is: n(n + 1)/2
 x = int(input("Enter Total no of values? "))
 sum_for = (x * (x + 1)) // 2
 print("Sum will be: ", sum_for)
@@ -47,7 +48,7 @@ print(f"Hello {firstN} {lastN}")
 
 8# How to create a list and tuple with comma separated numbers in Python
 
-numbers = int(input("Enter some +ive integers? "))
+numbers = input("Enter some +ive integers? ")
 list = numbers.split(",")
 #Here, tuple is used to convert list into tuple.
 tuple = tuple(list)
@@ -65,7 +66,10 @@ file_extention = os.path.splitext(file_name)[1]
 print(file_extention)
 
 10# Display the first and last colors from a given list in Python
-(Do it yourself).
+
+colors = ['red', 'green', 'blue', 'black']
+
+print(colors[0], colors[-1])
 
 11# Display a sample examination schedule in Python
 
