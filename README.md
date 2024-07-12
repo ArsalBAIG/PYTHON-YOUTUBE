@@ -420,3 +420,12 @@ print(f"Distance in inches is: {dis_yards:.2f} yards")
 print(f"Distance in inches is: {dis_miles:.2f} miles")
 
 44# How to calculate body mass index in Python
+
+weight_kg = int(input("Enter weight in kg's "))
+height_cm = float(input("Enter height in cm's"))
+height_m = height_cm / 100
+
+BMI = weight_kg / (height_m ** 2)
+print("Your BMI is: ", round(BMI, 2))
+
+45# How to Convert seconds to day, hour, minutes and seconds in Python
