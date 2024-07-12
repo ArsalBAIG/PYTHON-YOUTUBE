@@ -391,3 +391,13 @@ for key in sorted_y:
     print(key)
 
 41# How to convert height in feet and inches to centimeters in python
+
+feet = int(input("Enter your height(feet)"))
+inches = int(input("Enter your height(inches)"))
+#feet & inches to inches
+inches += feet * 12
+#height in cm
+cm = round(inches * 2.54, 1)
+print(f"Your height is: {cm}cm")
+
+42# How to Calculate the hypotenuse of a right angled triangle in python
