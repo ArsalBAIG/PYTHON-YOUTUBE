@@ -429,3 +429,21 @@ BMI = weight_kg / (height_m ** 2)
 print("Your BMI is: ", round(BMI, 2))
 
 45# How to Convert seconds to day, hour, minutes and seconds in Python
+
+import datetime
+second = 60
+#Here, we use timedelta to rep diff b/w time which is second in this case.
+time = datetime.timedelta(seconds= second)
+#Here, we convert time into string to rep days, hours, min.
+formated_time = str(time)
+print(formated_time)
+
+46# How to Find ASCII Value of Character in Python
+
+def get_ASCII(char):
+    return ord(char)
+
+character = 'B'
+print("ASCII value of char is: ", get_ASCII(character))
+
+47# How to Extract extension from filename In Python
