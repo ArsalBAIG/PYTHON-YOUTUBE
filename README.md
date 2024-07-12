@@ -401,3 +401,11 @@ cm = round(inches * 2.54, 1)
 print(f"Your height is: {cm}cm")
 
 42# How to Calculate the hypotenuse of a right angled triangle in python
+
+import math
+pre = 9.0
+base = 8.3
+x  = math.hypot(pre, base)
+print(round(x,2))
+
+43# How to convert the distance in feet to inches, yards, and miles in python
