@@ -447,3 +447,28 @@ character = 'B'
 print("ASCII value of char is: ", get_ASCII(character))
 
 47# How to Extract extension from filename In Python
+
+file_name = 'mymodule.txt'
+#Here, (".") means it finds the . first and then adds 1 and then prints upto the end
+extension = file_name[file_name.index(".") + 1:]
+print(f"File Extension: {extension}")
+
+48# How to Get Current Date & Time in Python
+
+from time import gmtime, strftime
+#Here, gmtime is a function that holds values like %H, %M etc
+formated_time = strftime("%H:%M %Y-%M-%S")
+print(formated_time)
+
+49# How to Check if a String is a Number in Python    
+
+def is_num(string):
+    return string.isdigit()
+
+input_string = '7865'
+if is_num(input_string):
+    print("it's a number")
+else:
+    print("it's not! ")
+
+50# 
