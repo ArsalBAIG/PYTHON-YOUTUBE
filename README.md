@@ -409,3 +409,14 @@ x  = math.hypot(pre, base)
 print(round(x,2))
 
 43# How to convert the distance in feet to inches, yards, and miles in python
+
+dis_feet = int(input("Enter distance in feet: "))
+dis_inches = dis_feet * 12
+dis_yards = dis_feet / 3.0
+dis_miles = dis_feet / 5280.0
+
+print(f"Distance in inches is: {dis_inches} inches")
+print(f"Distance in inches is: {dis_yards:.2f} yards")
+print(f"Distance in inches is: {dis_miles:.2f} miles")
+
+44# How to calculate body mass index in Python
