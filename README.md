@@ -379,4 +379,15 @@ print(platform.release())
 import os
 print("Current File is: ", os.path.realpath(__file__))
 
-40# 
+40# How to Sort Counter by value in Python
+
+from collections import Counter
+#Here, ({'a': 5}) is a object.
+y = Counter({'a': 5, 'b' : 3, 'c' : 8})
+#Here, ({'a': 5}) we assign values to each key in a dict.
+sorted_y = sorted(y, key= y.get, reverse= True)
+
+for key in sorted_y:
+    print(key)
+
+41# How to convert height in feet and inches to centimeters in python
