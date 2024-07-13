@@ -614,3 +614,19 @@ def count_char(filename):
 count_char("mymodule.txt")
 
 66# How to Insert a string in the middle of a string in Python
+
+def insert_middle_string(org_string, insert_string):
+    middle = len(org_string) // 2
+#Here, printing org_string upto middle value and then insert_string and then printing remaning middle of org_string to end.
+    return f"{org_string[:middle]} {insert_string}{org_string[middle:]}"
+new_string = insert_middle_string("Cast","Baig")
+print(new_string)
+
+67# How to Remove a newline in Python
+
+original_string = "Hello, world!\n"
+cleaned_string = original_string.replace("\n", "")
+print(cleaned_string)
+
+68# How to Reverse a string in Python
+1-
