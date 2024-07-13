@@ -630,3 +630,15 @@ print(cleaned_string)
 
 68# How to Reverse a string in Python
 1-
+org_string = 'Hello there!'
+reverse = org_string[::-1]
+print(reverse)
+
+2-
+org_string = 'Hello there!'
+reverse_list = list(reversed(org_string))
+#Here, "" indicates spaces and join is use for concatenation.
+reverse_string = "".join(reverse_list)
+print(reverse_string)
+
+69# 
