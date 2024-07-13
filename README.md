@@ -489,4 +489,41 @@ delimeters = " "
 output = delimeters.join(string)
 print(output)
 
-52# 
+52# How to Find file path or directory in Python
+
+import os
+path = os.path.dirname(os.path.realpath(__file__))
+print("Directory path is: ", path)
+
+53# How to Multiply all numbers in the list in Python
+
+def multiplyList(myList):
+    output = 1
+    for x in myList:
+        output *= x
+    return output
+
+list1 = [1, 3, 5]
+list2 = [2, 4, 6]
+
+print(multiplyList(list1))
+print(multiplyList(list2))
+
+54# How to get current module object in Python
+
+from inspect import getmodule
+from math import sqrt
+#Here, we use sqrt to demonstrate the exact location where sqrt is stored. We can also use some other function instead of sqrt it's just an example.
+print(getmodule(sqrt))
+
+55# How to Add leading zeroes to a string in Python
+1- 
+my_string = '908'
+print(my_string.zfill(6))
+
+2-
+#Here, 1 indicates integer 1 and '04' indicated that we insert 0 on the left and insert until it's width is 4.
+formated_output = format(1, '04')
+print(formated_output)
+
+56# 
