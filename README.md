@@ -471,4 +471,22 @@ if is_num(input_string):
 else:
     print("it's not! ")
 
-50# 
+50# How to Swap two variables in Python
+
+x = 9
+y = 0
+
+temporary = x
+x = y
+y = temporary
+print("X = ", x)
+print("Y = ", y)
+
+51# How to Join or Concatenate N strings in Python
+
+string = ["Hello", "World!"]
+delimeters = " "
+output = delimeters.join(string)
+print(output)
+
+52# 
