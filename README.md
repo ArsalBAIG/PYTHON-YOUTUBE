@@ -563,3 +563,30 @@ print("File size: ", file_info.st_size)
 print("Last modified Time is: ", file_info.st_mtime)
 
 61# How to print positive numbers in a list in Python
+
+listing = [3, -8, 5, -3, -7]
+for num in listing:
+    if num > 0:
+        print(num, end= " ")
+
+62# How to Sum all values of a counter in Python
+
+from collections import Counter
+myCount = Counter([3, 4, 3, 6, 9 ])
+#Here, values() is used to show no of values in Counter.
+total_count = sum(myCount.values())
+print("Total Count is: ", total_count)
+
+63# How to Calculate the time runs of a program in Python
+
+import time
+start_time = time.time()
+for i in range(1000):
+    pass
+
+end_time = time.time()
+
+execution_time = end_time - start_time
+print(f"Execution Time: {execution_time:.5f}")
+
+64# How to validate IP address in Python
