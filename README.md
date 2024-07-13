@@ -590,3 +590,27 @@ execution_time = end_time - start_time
 print(f"Execution Time: {execution_time:.5f}")
 
 64# How to validate IP address in Python
+
+import ipaddress
+
+def valid_ip(ip):
+    try:
+        ip_obj = ipaddress.ip_address(ip)
+        print(f"{ip} is a valid IP Address. (version{ip_obj.version})")
+    except ValueError:
+        print(f"{ip} is invalid IP Address. ")
+
+valid_ip("192.168.0.1")
+
+65# How to Find the number of characters in a file using Python
+
+def count_char(filename):
+    with open(filename, "r") as file:
+        text = file.read()
+        chars = len(text)
+
+    print(f"No of char in {filename} : {chars}")
+
+count_char("mymodule.txt")
+
+66# How to Insert a string in the middle of a string in Python
