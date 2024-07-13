@@ -526,4 +526,40 @@ print(my_string.zfill(6))
 formated_output = format(1, '04')
 print(formated_output)
 
-56# 
+56# How to Convert pressure in kilopascals to pounds in Python
+
+kilopascals = float(input("Enter the pressure in kilopascal's? "))
+psi = round(kilopascals * 0.1450, 3)
+millimeterHg = round(kilopascals * 7.500, 3)
+atm = round(kilopascals * 0.0098756, 3)
+
+print(f"Pressure in psi is {psi} or Pressure in millimeter of Hg {millimeterHg} or Pressure in atm is {atm}")
+
+57# How to get the copyright information in Python
+
+import sys
+print(sys.copyright)
+print()
+
+58# How to Get the size of an object in bytes in Python
+
+import sys
+x = 9
+size = sys.getsizeof(x)
+print(size)
+
+59# How to Get the identity of an object in Python
+
+x = 89
+print(id(x))
+
+60# How to Retrieve file properties In Python
+
+from pathlib import Path
+file_path = Path("/PYTHON LEARNING/mymodule.txt")
+file_info = file_path.stat()
+
+print("File size: ", file_info.st_size)
+print("Last modified Time is: ", file_info.st_mtime)
+
+61# How to print positive numbers in a list in Python
